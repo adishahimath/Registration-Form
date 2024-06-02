@@ -1,0 +1,19 @@
+p5{
+    font-size: 0.5cm;
+    font-weight: 700;
+    padding: 3px 5px;
+
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 5px solid var(--clr-accent);
+    border-radius: 5px;
+
+    transition: all 0.3s;
+}
+
+p5 :hover{
+    transform: translateY(-5px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
+
