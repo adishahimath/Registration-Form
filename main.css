@@ -1,4 +1,4 @@
-p5{
+p5 {
     font-size: 0.5cm;
     font-weight: 700;
     padding: 3px 5px;
@@ -11,9 +11,16 @@ p5{
     transition: all 0.3s;
 }
 
-p5 :hover{
+p5 :hover {
     transform: translateY(-5px);
     background-color: var(--clr-accent);
     color: var(--clr-light);
 }
 
+body{
+    background-image: linear-gradient(to right,#00d4ff,#090979);
+}   
+
+h1 {
+    color: black;
+  }
