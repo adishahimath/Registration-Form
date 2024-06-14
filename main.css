@@ -1,26 +1,37 @@
-p5 {
-    font-size: 0.5cm;
-    font-weight: 700;
-    padding: 3px 5px;
-
-    color: var(--clr-accent);
-    background-color: var(--clr-rgba);
-    border: 5px solid var(--clr-accent);
-    border-radius: 5px;
-
-    transition: all 0.3s;
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: #005d2a;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    border: 2px solid white;
 }
 
-p5 :hover {
-    transform: translateY(-5px);
-    background-color: var(--clr-accent);
-    color: var(--clr-light);
+
+.btn:hover{
+    background-color: greenyellow;
+    border-color: black;
+
+}
+.btn:active{
+    color: aliceblue;
+    background-color: rgb(35, 211, 8);
+    border-color: #005d2a;
 }
 
 body{
-    background-image: linear-gradient(to right,#00d4ff,#090979);
-}   
+    background: url("https://images.unsplash.com/photo-1607743882420-4412ee605bac?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}  
 
-h1 {
-    color: black;
-  }
+#h1{
+    color: aliceblue;
+}
+
+.paragraf{
+    color: aliceblue;
+}
